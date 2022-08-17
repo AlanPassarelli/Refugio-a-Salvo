@@ -88,15 +88,13 @@ main {
     color: rgb(0, 0, 0);
     font-family: "ibarranova", sans-serif;
     text-shadow:rgb(128, 123, 123) 2px 2px; 
-    animation: title 12s infinite
+    animation: title 10s infinite
 }
 
 @keyframes title {
     0% {opacity: 0; color: rgb(0, 0, 0);}
-    25% {color:rgb(0, 0, 0);background-color: rgb(179, 179, 179);}
-    50% {opacity: 1;color: rgb(255, 255, 255);background-color: rgb(131, 131, 131);}
-    75% {color: rgb(255, 255, 255);background-color: rgb(46, 46, 46);}
-    100% {opacity: 0;background-color: rgb(112, 112, 112);}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
 
 }
 .contenido {
