@@ -47,13 +47,7 @@
 
 /* Fin de footer */
 
-main {
-    height: 100%;
-}
-
-.fondo {
-    background-image: url(../Imagenes/huellas.jpg);
-}
+/* Comienzo index */
 
 .titulo {
     display: flex;
@@ -75,37 +69,8 @@ main {
     100% {opacity: 0;background-color: rgb(112, 112, 112);}
 
 }
-.contenido {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    object-fit: cover;
-}
 
-.text {
-    background-color: rgba(255, 255, 255, 0.955);
-    font-size: 1.6rem;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: "ibarranova", sans-serif;
-    animation: text 5s infinite;
-}
-
-@keyframes text {
-0%{ margin-left: -600px;}
-10% { margin-left: -300px;}
-}
-
-.image {
-    border: 0.2rem solid;
-    display: flex;
-    height: auto;
-    width: auto;
-    max-height: 100%;
-    max-width: 100rem;
-    
-}
+/* fin index */
 
 .tituloFormulario {
     display: flex;
@@ -189,20 +154,16 @@ main {
     max-width: 350px;
     border: 3px solid rgb(0, 0, 0);
 }
-
-.fondoDonacion {
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-    gap: 2rem;
-}
+/* Comienzo donacion */
 
 .sectionDonacion {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 4rem;
+    margin-bottom: 3.3rem;
+    margin-left: 1rem;
 }
 
 .sectionDonacion2 {
@@ -235,6 +196,7 @@ main {
     font-weight: bold;
 }
 
+/* fin donacion */
 .fondoAdopta{
     display: flex;
     
@@ -293,30 +255,10 @@ main {
         text-shadow:rgb(128, 123, 123) 1.5px 1.5px
     }
 
-    .fondo{
-        gap: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-image: none;
-    }
-
     .titulo {
         font-size: 2rem;
         text-shadow:rgb(128, 123, 123) 1.5px 1.5px; 
     }
-
-    .text {
-        font-size: 0.8rem;  
-    }
-
-    .contenido {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .image {
-        width: 100%; }
 
 /* termina index*/      
 
@@ -374,15 +316,11 @@ main {
 
 /* Comienza donancion*/
 
-.fondoDonacion{
-    height:0rem;
-    gap: 0rem;
-}
-
 .sectionDonacion{
     flex-direction: column;
     gap: 8px;
     font-size: 0.7rem;
+    margin-left: 1rem;
 }
 
 .sectionDonacion2{
