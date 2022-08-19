@@ -70,6 +70,26 @@
 
 }
 
+.text {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.955);
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "ibarranova", sans-serif;
+    animation: text 4s infinite;
+}
+
+@keyframes text {
+0%{ margin-left: -600px;}
+10% { margin-left: -300px;}
+}
+
+
 /* fin index */
 
 /* comienzo contacto */
@@ -85,7 +105,6 @@
 
 .fondoFormulario {
     display: flex;
-    height: 55vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -165,7 +184,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 4rem;
-    margin-bottom: 3.3rem;
+    margin-bottom: 4.3rem;
     margin-left: 1rem;
 }
 
@@ -173,21 +192,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.inputdonacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem;
-    margin: 2px 2px 2px 2px;
-    text-align: center;
-    color: rgb(0, 0, 255);
-    font-family: "ibarranova", sans-serif;
-    border: 2px solid rgb(0, 0, 0);
-    font-weight: bold;
-    width: 39vh;
-    margin-bottom: 1rem;
 }
 
 .mediosDePagos {
@@ -251,7 +255,7 @@
 }
 
 @media screen and (max-width:600px) and (orientation:portrait) {
-    
+
 /* Comienza index*/
 
     .navegacion ul li a {
@@ -259,8 +263,11 @@
         text-shadow:rgb(128, 123, 123) 1.5px 1.5px
     }
 
+    .index {
+        height: 700px;
+    }
     .titulo {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-shadow:rgb(128, 123, 123) 1.5px 1.5px; 
     }
 
@@ -287,44 +294,70 @@
 
 /* Comienza nosotros*/
 
+.nosotros{
+    height: 720px;
+}
 .sectionNosotros {
-    gap: 0.4rem;
+    gap: 0.2rem;
 }
 
 .titulosNosotros{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .textNosotros{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 .imgRefugio{
-    height: 7rem;
-    width: 60%;
+    height: 12rem;
+    width: 80%;
 }
 
 /* termina nosotros*/  
 
 /* Comienza contacto*/
 
-.fondoFormulario {
-    height: auto;
+.sectionContacto{
+    height: 700px;
+}
+.fondoFormulario{
+    height: 600px;
+}
+.tituloFormulario{
+    font-size: 1.2rem;
+    text-shadow:rgb(128, 123, 123) 1px 1px;
+    margin-left: 0.9rem;
+}
+
+label { font-size: 1.2rem;}
+
+.texto{ height: 6rem;
 }
 
 /* termina contacto*/  
 
 /* Comienza donancion*/
 
+.donacion {
+    height: 700px;
+}
+
+.titulosNosotros{
+    font-size: 1rem;
+}
+.textNosotros {
+    font-size: 0.9rem;
+}
 .sectionDonacion{
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
     font-size: 0.7rem;
     margin-left: 1rem;
 }
 
 .sectionDonacion2{
     flex-direction: column;
-    margin-top: 3px;
+    margin-top: -40px;
 }
 
 .mediosDePagos{
