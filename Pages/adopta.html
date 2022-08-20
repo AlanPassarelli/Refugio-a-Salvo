@@ -1,92 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Refugio a Salvo</title>
 </head>
-<body class="fondoBody">
-    <header>
 
-        <nav class="navegacion">
-            <img src="../Imagenes/Logo.jpg" alt="logo del sitio" class="encabezadoLogo">
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./nosotros.html">NOSOTROS </a></li>
-                <li><a href="./donacion.html">DONACION</a></li>
-                <li><a href="./adopta.html">ADOPTA</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-            
-        </nav>
+<body container>
+    <div class="row">
+        <header>
 
-    </header>
+            <nav class="navbar navegacion" style="background-color:  rgb(194, 188, 173);">
+                <div
+                    class="container-fluid justify-content-around justify-content-sm-around justify-content-lg-between">
+                    <a>
+                        <img src="../Imagenes/Logo.jpg" alt="" width="100" height="100" class=" align-items-center">
+                    </a>
 
-    <main class="fondoNosotros">
-        <h1 class="titulo">Adopta</h1>
+                    <ul class="nav justify-content-around align-items-center">
+                        <li class="nav-item"><a class="nav-link INICIO" aria-current="page"
+                                href="../index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link NOSOTROS" aria-current="page"
+                                href="../Pages/nosotros.html">NOSOTROS</a></li>
+                        <li class="nav-item"><a class="nav-link DONACION" aria-current="page"
+                                href="../Pages/donacion.html">DONACION</a></li>
+                        <li class="nav-item"><a class="nav-link ADOPTA" aria-current="page"
+                                href="../Pages/adopta.html">ADOPTA</a></li>
+                        <li class="nav-item"><a class="nav-link CONTACTO" aria-current="page"
+                                href="../Pages/contacto.html">CONTACTO</a></li>
+                    </ul>
 
-        <section class="sectionAdopta">
-        
-        <img  class="imgAdopta" src="../Imagenes/Imagen 1.jpg" alt="Logan del refugio">
-        </section>
+                </div>
+            </nav>
 
-        <h1 class="tituloAdopta">Galeria</h1>
 
-        <section class="sectionAdopta2">
+        </header>
 
-            <div>
+        <main>
+            <h1 class="titulo">Adopta</h1>
 
-            <iframe class="imgAdopta" src="https://www.youtube.com/embed/ArNSjPWE7PU" title="Border collie aullando" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-            <h3 class="nombreAdoptado">Mora</h3>
+            <div class="row">
+
+                <section class="col">
+                    <div class="card ms-5 mt-5 text-bg-secondary" style="width: 18rem;">
+                        <img src="../Imagenes/chiqui.jpg" class="card-img-top imgAdopta" alt="Chiqui">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Chiqui</h5>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card ms-5 mt-5 text-bg-secondary" style="width: 18rem;">
+                        <img src="../Imagenes/Draco.png" class="card-img-top imgAdopta" alt="Draco">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Draco</h5>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card ms-5 mt-5 text-bg-secondary" style="width: 18rem;">
+                        <img src="../Imagenes/Mini.jfif" class="card-img-top imgAdopta" alt="Mini">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mini</h5>
+                        </div>
+                    </div>
+                </section>
 
             </div>
 
-            <div>
+            <div class="row">
 
+<<<<<<< HEAD
             <img class="imgAdopta" src="../Imagenes/Loki..jpg" alt="Imagen de Loki" >
+=======
+                <section class="col">
+                    <div class="card ms-5 mt-5 text-bg-secondary" style="width: 18rem;">
+                        <img src="../Imagenes/Loki..jpg" class="card-img-top imgAdopta" alt="Loki">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Loki</h5>
+                        </div>
+                    </div>
+                </section>
+>>>>>>> version2
 
-            <h3 class="nombreAdoptado">Loki</h3>
+                <section class="col">
+                    <div class="card ms-5 mt-5 text-bg-secondary" style="width: 18rem;">
+                        <img src="../Imagenes/Nano.jpg" class="card-img-top imgAdopta" alt="Nano">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nano</h5>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col">
+                    <div class="card ms-5 mt-5 text-bg-secondary" style="width: 18rem;">
+                        <img src="../Imagenes/mora.jfif" class="card-img-top imgAdopta" alt="Mora">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mora</h5>
+                        </div>
+                    </div>
+                </section>
 
             </div>
 
-            <div>
+        </main>
 
-            <img class="imgAdopta" src="../Imagenes/Nano.jpg" alt="Imagen de Nano" >
+        <footer style="background-color:  rgb(194, 188, 173);">
 
-            <h3 class="nombreAdoptado">Nano</h3>
+            <div class="container-fluid">
 
-            </div>
-
-            <div>
-
-            <img class="imgAdopta" src="../Imagenes/chiqui.jpg" alt="Imagen de Chiqui ">
-
-            <h3 class="nombreAdoptado">Chiqui</h3>
-
-            </div>
-
-            <div>
-
-                <img class="imgAdopta" src="../Imagenes/Draco.png" alt="Imagen de Chiqui ">
-    
-                <h3 class="nombreAdoptado">Draco</h3>
-    
+                <div class="col-xs-12 col-md-6 lg-3">
+                    <p class="textFooter">&copy Refugio a Salvo</p>
                 </div>
 
-        </section>
-    </main>
+                <div class="col-xs-12 col-md-6 lg-3">
+                    <p class="textFooter">Mi raza favorita es: adoptado</p>
+                </div>
 
-    <footer>
-        <p class="textFooter">&copy Refugio a Salvo</p>
-        <p class="textFooter">Mi raza favorita es: adoptado</p>
-        <div class="redes">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter"></i>
-        </div>
-    </footer>
+                <div class="redes col-xs-12 col-md-12 lg-12">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
