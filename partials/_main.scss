@@ -8,10 +8,11 @@
     background-color: $background-colortitulo;
     font-size: $letterTitulo;
     color: rgb(0, 0, 0);
-    font-family: "ibarranova", sans-serif;
+    font-family: $letter1;
     text-shadow: $textshadow 2px 2px; 
     animation: title 12s infinite
 }
+
 
 @keyframes title {
     0% {opacity: 0; color: rgb(0, 0, 0);}
@@ -19,9 +20,7 @@
     50% {opacity: 1;color: rgb(255, 255, 255);background-color: rgb(131, 131, 131);}
     75% {color: rgb(255, 255, 255);background-color: rgb(46, 46, 46);}
     100% {opacity: 0;background-color: rgb(112, 112, 112);}
-
 }
-
 .text {
     display: $displayflex;
     justify-content: $j-contcenter;
@@ -146,12 +145,12 @@
     display: $displayflex;
     justify-content: space-evenly;
     align-items: $a-itemscenter;
-    margin-bottom: 5.5rem;
+    margin-bottom: 8rem;
 }
 
 .mediosDePagos {
     display: $displayflex;
-    width: 20vh;
+    width: 26vh;
     align-items: $a-itemscenter;
     font-size: 1rem;
     color: $colorletra;

@@ -1,5 +1,5 @@
 
-@media screen and (max-width:600px) and (orientation:portrait) {
+@media screen and (max-width:700px) and (orientation:portrait) {
     /* Comienza index*/
     
         .navegacion ul li a {
@@ -45,6 +45,8 @@
     }
     .fondoFormulario{
         height: $heightmain;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .tituloFormulario{
         font-size: 1.2rem;
@@ -75,13 +77,13 @@
         flex-direction: column;
         gap: 0.5rem;
         font-size: 0.7rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-left: 1rem;
     }
     
     .sectionDonacion2{
         flex-direction: column;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
     
     .mediosDePagos{
