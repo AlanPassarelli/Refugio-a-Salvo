@@ -12,7 +12,7 @@
   list-style: none;
 }
 
-.navegacion ul li:hover {
+.navegacion ul li a:hover {
   color: rgb(128, 123, 123);
 }
 
@@ -38,7 +38,7 @@
 }
 
 /* Comienzo index */
-.titulo {
+main section h1 .titulo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +49,20 @@
   text-shadow: rgb(128, 123, 123) 2px 2px;
   -webkit-animation: title 12s infinite;
           animation: title 12s infinite;
+}
+main section h3 .text {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.955);
+  font-size: 1.6rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "ibarranova", sans-serif;
+  -webkit-animation: text 4s infinite;
+          animation: text 4s infinite;
 }
 
 @-webkit-keyframes title {
@@ -98,21 +112,6 @@
     background-color: rgb(112, 112, 112);
   }
 }
-.text {
-  display: flex;
-  justify-content: center;
-  height: 200px;
-  align-items: center;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.955);
-  font-size: 1.6rem;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: "ibarranova", sans-serif;
-  -webkit-animation: text 4s infinite;
-          animation: text 4s infinite;
-}
-
 @-webkit-keyframes text {
   0% {
     margin-left: -600px;
@@ -121,7 +120,6 @@
     margin-left: -300px;
   }
 }
-
 @keyframes text {
   0% {
     margin-left: -600px;

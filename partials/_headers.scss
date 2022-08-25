@@ -1,9 +1,11 @@
 .navegacion {
     ul{
         li {
-            &:hover{
-                color: $textshadow;  
-            }
+            a{
+                &:hover{
+                    color: $textshadow;  
+                }
+            } 
         }
 
     }
