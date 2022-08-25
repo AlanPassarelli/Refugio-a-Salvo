@@ -1,0 +1,97 @@
+
+@media screen and (max-width:600px) and (orientation:portrait) {
+    /* Comienza index*/
+    
+        .navegacion ul li a {
+            font-size: 0.8rem; }
+    
+        .index {
+            height: $heightmain1;
+        }
+        .titulo {
+            font-size: $letterTitulo1;
+            text-shadow:$textshadow 1.5px 1.5px; 
+        }
+    
+    /* termina index*/      
+
+    /* Comienza nosotros*/
+    
+    .nosotros{
+        height: $heightmain;
+    }
+    .sectionNosotros {
+        gap: 0.2rem;
+    }
+    
+    .titulosNosotros{
+        font-size: 0.7rem;
+    }
+    
+    .textNosotros{
+        font-size: 0.6rem;
+    }
+    .imgRefugio{
+        height: 12rem;
+        width: 80%;
+    }
+    
+    /* termina nosotros*/  
+    
+    /* Comienza contacto*/
+    
+    .sectionContacto{
+        height: $heightmain1;
+    }
+    .fondoFormulario{
+        height: $heightmain;
+    }
+    .tituloFormulario{
+        font-size: 1.2rem;
+        text-shadow:$textshadow 1px 1px;
+        margin-left: 0.9rem;
+    }
+    
+    label { font-size: 1.2rem;}
+    
+    .texto{ height: 6rem;
+    }
+    
+    /* termina contacto*/  
+    
+    /* Comienza donancion*/
+    
+    .donacion {
+        height: $heightmain1;
+    }
+    
+    .titulosNosotros{
+        font-size: 1rem;
+    }
+    .textNosotros {
+        font-size: 0.9rem;
+    }
+    .sectionDonacion{
+        flex-direction: column;
+        gap: 0.5rem;
+        font-size: 0.7rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+    
+    .sectionDonacion2{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    
+    .mediosDePagos{
+    font-size: 0.7rem;
+    }
+    
+    .inputdonacion{
+        font-size: 0.7rem;
+        padding: 0.2rem;
+    }
+    /* termina donancion*/  
+    
+}

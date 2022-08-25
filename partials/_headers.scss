@@ -1,0 +1,10 @@
+.navegacion ul li a:hover {
+    color: $textshadow;  
+}
+
+.navegacion ul li a {
+    font-size: 1rem; 
+    color: $colorletra;
+    font-family: $letter1;
+    text-shadow: $textshadow 1.5px 1.5px
+}

@@ -1,0 +1,169 @@
+
+/* Comienzo index */
+
+.titulo {
+    display: $displayflex;
+    align-items: $a-itemscenter;
+    justify-content: $j-contcenter;
+    background-color: $background-colortitulo;
+    font-size: $letterTitulo;
+    color: rgb(0, 0, 0);
+    font-family: "ibarranova", sans-serif;
+    text-shadow: $textshadow 2px 2px; 
+    animation: title 12s infinite
+}
+
+@keyframes title {
+    0% {opacity: 0; color: rgb(0, 0, 0);}
+    25% {color:rgb(0, 0, 0);background-color: rgb(179, 179, 179);}
+    50% {opacity: 1;color: rgb(255, 255, 255);background-color: rgb(131, 131, 131);}
+    75% {color: rgb(255, 255, 255);background-color: rgb(46, 46, 46);}
+    100% {opacity: 0;background-color: rgb(112, 112, 112);}
+
+}
+
+.text {
+    display: $displayflex;
+    justify-content: $j-contcenter;
+    height: 200px;
+    align-items: $a-itemscenter;
+    font-weight: bold;
+    background-color: $background-colortitulo;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $colorletra;
+    font-family: $letter;
+    animation: text 4s infinite;
+}
+
+@keyframes text {
+0%{ margin-left: -600px;}
+10% { margin-left: -300px;}
+}
+
+
+/* fin index */
+
+/* comienzo contacto */
+
+.tituloFormulario {
+    display: $displayflex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    color: $colorletra;
+    font-family: $letter;
+    text-shadow: $textshadow 1px 1px;
+}
+
+.fondoFormulario {
+    display: $displayflex;
+    flex-direction: column;
+    justify-content: $j-contcenter;
+    align-items: $a-itemscenter;
+    text-shadow: $textshadow 1px 1px;
+    text-align: center;
+    font-family: $textshadow;
+    font-weight: bold;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+}
+
+.texto {
+    height: 5rem;
+}
+
+.button input {
+    border: 2px solid;
+    background-color: $background-colorbutton;
+    font-weight: bold;
+}
+/* fin contacto */
+
+/* comienzo nosotros */
+.fondoNosotros {
+    display: $displayflex;
+    flex-direction: column;
+    height: 60%;
+    gap: 2rem;
+}
+
+.titulosNosotros {
+    font-size: 1.5rem;
+    color: $colorletra;
+    font-family: $letter;
+    text-shadow: $textshadow 0.5px 0.5px; 
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.textNosotros {
+    font-size: 1rem;
+    color: $colorletra;
+    font-family: $letter;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.sectionNosotros{
+    display:$displayflex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sectionNosotros1{
+    display: $displayflex;
+    justify-content: $j-contcenter;
+    align-items: $a-itemscenter;
+}
+.imgRefugio {
+
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+
+/* fin nosotros */
+
+/* Comienzo donacion */
+
+.sectionDonacion {
+    display: $displayflex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-bottom: 5.5rem;
+    margin-left: 1rem;
+}
+
+.sectionDonacion2 {
+    display: $displayflex;
+    justify-content: space-evenly;
+    align-items: $a-itemscenter;
+    margin-bottom: 5.5rem;
+}
+
+.mediosDePagos {
+    display: $displayflex;
+    width: 20vh;
+    align-items: $a-itemscenter;
+    font-size: 1rem;
+    color: $colorletra;
+    font-family: $letter;
+    font-weight: bold;
+}
+
+/* fin donacion */
+
+/* Comienza Adopta */
+
+.imgAdopta {
+    height: 250px;
+    width: 250px;
+}

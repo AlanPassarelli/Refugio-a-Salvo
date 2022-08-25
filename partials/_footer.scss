@@ -1,0 +1,13 @@
+.textFooter {
+    font-size: 0.8rem; 
+    color: $colorletra;
+    font-family: $letter1;
+    font-weight: bold;
+}
+
+.redes {
+    display: $displayflex;
+    justify-content: $j-contflex-end;
+    align-items: $a-itemscenter;
+    gap: 0.5rem;
+}
