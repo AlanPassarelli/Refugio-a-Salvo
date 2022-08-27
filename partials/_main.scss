@@ -68,8 +68,8 @@
     text-align: center;
     font-family: $textshadow;
     font-weight: bold;
-    margin-top: 5.5rem;
-    margin-bottom: 5.5rem;
+    margin-top: 6.8rem;
+    margin-bottom: 6.8rem;
 }
 
 .texto {
@@ -121,6 +121,7 @@
     justify-content: $j-contcenter;
     align-items: $a-itemscenter;
 }
+
 .imgRefugio {
 
     height: auto;
@@ -128,7 +129,8 @@
     max-height: 350px;
     max-width: 350px;
     border: 3px solid rgb(0, 0, 0);
-    margin-bottom: 1rem;
+    margin-bottom: 4.5rem;
+    margin-top: 4.5rem;
 }
 
 /* fin nosotros */
@@ -141,7 +143,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 4rem;
-    margin-bottom: 5.5rem;
+    margin-bottom: 6.5rem;
     margin-left: 1rem;
 }
 
@@ -149,12 +151,12 @@
     display: $displayflex;
     justify-content: space-evenly;
     align-items: $a-itemscenter;
-    margin-bottom: 8rem;
+    margin-bottom: 12.5rem;
 }
 
 .mediosDePagos {
     display: $displayflex;
-    width: 26vh;
+    width: 20vh;
     align-items: $a-itemscenter;
     font-size: 1rem;
     color: $colorletra;
