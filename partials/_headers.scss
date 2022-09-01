@@ -3,7 +3,7 @@
         li {
             a{
                 &:hover{
-                    color: $textshadow;  
+                    color: map-get($colores, textshadow );  
                 }
             } 
         }
@@ -16,9 +16,9 @@
         li {
             a{
                 font-size: 1rem; 
-                color: $colorletra;
+                color: map-get($colores, colorletra );
                 font-family: $letter1;
-                text-shadow: $textshadow 1.5px 1.5px
+                text-shadow: map-get($colores, textshadow ) 1.5px 1.5px
             }
         }
 

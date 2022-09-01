@@ -1,6 +1,6 @@
 .textFooter {
     font-size: 0.8rem; 
-    color: $colorletra;
+    color: map-get($colores, colorletra );
     font-family: $letter1;
     font-weight: bold;
 }

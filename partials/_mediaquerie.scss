@@ -10,7 +10,7 @@
         }
         .titulo {
             font-size: $letterTitulo1;
-            text-shadow:$textshadow 1.5px 1.5px; 
+            text-shadow:map-get($colores, textshadow ) 1.5px 1.5px; 
         }
     
     /* termina index*/      
@@ -58,7 +58,7 @@
     }
     .tituloFormulario{
         font-size: 1.2rem;
-        text-shadow:$textshadow 1px 1px;
+        text-shadow: map-get($colores, textshadow ) 1px 1px;
         margin-left: 0.9rem;
     }
     

@@ -39,9 +39,6 @@
 
 /* Comienzo index */
 .titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgba(255, 255, 255, 0.955);
   font-size: 5rem;
   color: rgb(0, 0, 0);
@@ -99,10 +96,7 @@
   }
 }
 .text {
-  display: flex;
-  justify-content: center;
   height: 200px;
-  align-items: center;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.955);
   font-size: 1.6rem;
@@ -143,10 +137,7 @@
 }
 
 .fondoFormulario {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-shadow: rgb(128, 123, 123) 1px 1px;
   text-align: center;
   font-family: rgb(128, 123, 123);
@@ -157,12 +148,6 @@
 
 .texto {
   height: 5rem;
-}
-
-.button input {
-  border: 2px solid;
-  background-color: rgb(128, 128, 128);
-  font-weight: bold;
 }
 
 /* fin contacto */
@@ -195,14 +180,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-content: flex-start;
   gap: 1rem;
-}
-
-.sectionNosotros1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .imgRefugio {
@@ -221,7 +200,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-content: flex-start;
   gap: 4rem;
   margin-bottom: 6.5rem;
   margin-left: 1rem;
@@ -340,4 +319,9 @@
     padding: 0.2rem;
   }
   /* termina donancion*/
+}
+.titulo, .text, .fondoFormulario, .sectionNosotros1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
